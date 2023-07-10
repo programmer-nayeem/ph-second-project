@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common shared style */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section start */
+.header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.baner-content{
+    position: absolute;
+    margin: 150px 0px 150px 750px;
+    text-align: right;
+    width: 500px;
+}
+.baner-title h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: normal;
+}
+.baner-desc p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.baner-btn{
+    padding: 18px 28px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* feilure section start */
+
+.feilure{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 0px 75px;
+}
+.img img{
+    width: 430px;
+    height: 500px;
+}
+.feilure-cause{
+    max-width: 50%;
+    margin-top: 20px;
+}
+.feilure-title{
+    color: #151414;
+    font-size: 38px;
+    font-weight: 700;
+}
+.feilure-desc{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 63%;
+}
+.feilure-exm li{
+    list-style: none;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.feilure-exm li .fa-solid{
+    font-size: 15px;
+    color: #16D887;
+}
